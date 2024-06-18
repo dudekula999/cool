@@ -5,7 +5,7 @@ FROM node:16-alpine
 WORKDIR /app
 
 # Copy the package.json and package-lock.json files
-COPY package*.json /app/public
+COPY ackage.json .
 
 # Install any needed packages
 RUN npm install
